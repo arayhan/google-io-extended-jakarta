@@ -1,6 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es2020"
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "paths": {
+        "@components/*": ["src/components/*"],
+        "@config/*": ["src/config/*"],
+        "@images/*": ["src/images/*"],
+        "@pages/*": ["src/pages/*"],
+        "@services/*": ["src/services/*"],
+        "@store/*": ["src/store/*"],
+        "@styles/*": ["src/styles/*"],
+        "@tests/*": ["src/tests/*"],
+        "@utils/*": ["src/utils/*"]
+      }
     },
     "include": [
         "src/**/*",
