@@ -5,7 +5,7 @@
     "paths": {
       "@components/*": ["src/components/*"],
       "@config/*": ["src/config/*"],
-      "@images/*": ["src/images/*"],
+      "@images/*": ["src/assets/images/*"],
       "@pages/*": ["src/pages/*"],
       "@services/*": ["src/services/*"],
       "@store/*": ["src/store/*"],
