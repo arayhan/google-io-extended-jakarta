@@ -20,15 +20,17 @@ export const HeaderMobile = () => {
           <Link
             to={ROUTES.HOME}
             onClick={handleClose}
+            className="transform -translate-x-5"
           >
             <img
-              className="w-64"
+              className="w-42"
               src={require("../../../assets/images/logo/Logo-io.svg").default}
-              alt="GDG Logo"
+              alt="IO Extended Logo"
             />
           </Link>
+
           <button
-            className="p-4 transform translate-x-4 transition-all hover:bg-gray-100 rounded-full outline-none"
+            className="p-3 border-2 border-transparent transform translate-x-4 hover:border-gray-700 rounded-lg outline-none"
             onClick={() => setShowSideMenu(!showSideMenu)}
           >
             <MdDehaze size={20} />

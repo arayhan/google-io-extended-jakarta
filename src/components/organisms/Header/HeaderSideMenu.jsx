@@ -1,4 +1,4 @@
-import { MdLaunch } from "react-icons/md";
+import { ButtonRegister } from "@components/atoms";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { ROUTES, HEADER_ROUTES } from "../../../routes";
@@ -26,7 +26,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
             <img
               className="w-64"
               src={require("../../../assets/images/logo/Logo-io.svg").default}
-              alt="GDG Logo"
+              alt="Google I/O Logo"
             />
           </Link>
         </div>
@@ -34,30 +34,20 @@ export const HeaderSideMenu = ({ show, onClose }) => {
         <div className="flex flex-col">
           {HEADER_ROUTES.map((route) => (
             <NavLink
-              exact
               key={route.path}
-              activeClassName="border-blue-500 text-blue-700"
-              className="px-6 py-4 text-gray-400 border-l-4 border-transparent hover:bg-gray-50 transition hover:text-blue-700"
+              exact
+              className={({ isActive }) =>
+                isActive ? "font-semibold p-5 text-gray-700" : "font-semibold p-5 text-gray-500 hover:text-gray-700"
+              }
               to={route.path}
-              onClick={onClose}
             >
               {route.title}
             </NavLink>
           ))}
         </div>
 
-        <div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full">
-          <a
-            className="w-full bg-blue-700 flex items-center justify-between rounded-full m-6 px-6 py-4 text-sm text-white space-x-3 shadow-md transition-all hover:bg-blue-700"
-            href="https://gdg.community.dev/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className="tracking-wider">Register</span>
-            <span>
-              <MdLaunch size={16} />
-            </span>
-          </a>
+        <div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full p-5">
+          <ButtonRegister className="w-full justify-between" />
         </div>
       </div>
     </div>
