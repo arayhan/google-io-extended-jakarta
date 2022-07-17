@@ -3,7 +3,7 @@ import { Container } from "@components/atoms/Container/Container";
 export const Footer = () => {
   return (
     <footer>
-      <div className="bg-blue-grey-800">
+      <div className="bg-grey-900 border-b border-gray-700">
         <Container className="text-center space-x-5 text-white py-10">
           <a
             className="hover:underline"
@@ -23,7 +23,7 @@ export const Footer = () => {
           </a>
         </Container>
       </div>
-      <div className="bg-blue-grey-900">
+      <div className="bg-grey-900">
         <Container className="text-center text-white py-3">
           <div>&copy; Copyright 2021 GDG Jakarta | All Right Reserved</div>
         </Container>
