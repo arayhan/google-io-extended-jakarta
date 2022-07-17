@@ -1,7 +1,7 @@
 import React from "react";
 import "./Button.css";
 
-export function ButtonLink({ className, href, text, icon, ...props }) {
+export function ButtonLink({ className, href, text, icon, prefixIcon, ...props }) {
   return (
     <a
       className={`button ${className}`}
@@ -10,6 +10,7 @@ export function ButtonLink({ className, href, text, icon, ...props }) {
       rel="noreferrer"
       {...props}
     >
+      {prefixIcon && <span>{prefixIcon}</span>}
       <span className="tracking-wider">{text}</span>
       {icon && <span>{icon}</span>}
     </a>
