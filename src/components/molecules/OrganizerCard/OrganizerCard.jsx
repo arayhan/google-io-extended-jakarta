@@ -13,9 +13,9 @@ export const OrganizerCard = ({
   return (
     <div className={`${className}`}>
       <div className="rounded-lg flex flex-col justify-between border-2 hover:border-black items-center px-3 py-6 space-y-6 h-full">
-        <div className="">
+        <div>
           <img
-            className="w-28 h-28 md:w-48 md:h-48 rounded-full object-cover"
+            className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover"
             src={avatar_url}
             alt={name}
             onError={HELPERS.handleBrokenImage}
