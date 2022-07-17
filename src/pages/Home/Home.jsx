@@ -12,7 +12,7 @@ function Home() {
         <section className="mb-24">
           <Fade>
             <img
-              className="h-96 w-full max-w-screen-2xl object-cover rounded-lg"
+              className="h-64 md:h-96 w-full max-w-screen-2xl object-cover rounded-lg border-2 border-gray-800"
               src={require("@assets/images/extended-banner.jpeg")}
               alt=""
             />
