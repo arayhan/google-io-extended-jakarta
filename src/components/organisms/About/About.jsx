@@ -47,6 +47,8 @@ export const About = () => {
                 <a
                   className="text-blue-700 hover:text-blue-900 hover:underline ml-3"
                   href={CONSTANTS.GMAPS_LOCATION_LINK}
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   View Map
                 </a>
@@ -57,11 +59,13 @@ export const About = () => {
           <div className="flex flex-col md:flex-row items-center space-y-3 md:space-y-0 md:space-x-6">
             <ButtonLink
               text="Register"
+              className="w-full sm:w-5/6 md:w-auto justify-between"
               href={CONSTANTS.REGISTRATION_LINK}
               icon={<MdLaunch size={16} />}
             />
             <ButtonLink
               text="Learn More About Google I/O"
+              className="w-full sm:w-5/6 md:w-auto justify-between"
               href={CONSTANTS.IO_OFFICIAL_SITE_LINK}
               icon={<MdLaunch size={16} />}
             />
