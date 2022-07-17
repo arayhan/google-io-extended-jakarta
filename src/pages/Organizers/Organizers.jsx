@@ -13,7 +13,7 @@ export const Organizers = () => {
       </Helmet>
       <Container className="space-y-24 mb-24">
         <Fade>
-          <div className="space-y-5 bg-gray-200 px-6 py-16 md:px-12 md:py-24 rounded-lg border-2 border-gray-800">
+          <div className="space-y-5 bg-green-300 px-6 py-16 md:px-12 md:py-24 rounded-lg border-2 border-gray-800">
             <h1 className="text-5xl md:text-7xl font-bold">Organizers.</h1>
             <p className="text-lg md:text-xl text-gray-800">
               Google I/O Extended Jakarta is a Jakarta community-driven conference, and administratively supported by
