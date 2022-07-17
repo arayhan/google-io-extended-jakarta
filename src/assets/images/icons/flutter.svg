@@ -1,0 +1,28 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g clip-path="url(#svg-product-flutter-xOBnk5S)">
+<rect x="12.9023" y="25.4316" width="38.6811" height="30.153" fill="url(#svg-product-flutter-2oU9I95)"></rect>
+<path d="M46.451 27.9375H29.9578L15.5273 42.371L23.7719 50.6161L46.451 27.9375Z" fill="#54C5F8"></path>
+<path d="M11.4044 38.2481L3.15625 29.9999L29.9589 3.19727H46.4522L11.4044 38.2481Z" fill="#54C5F8"></path>
+<path d="M23.7734 50.6162L29.9593 56.802H46.4525L32.0216 42.3711L23.7734 50.6162Z" fill="#01579B"></path>
+<path d="M23.7734 50.6162L36.0053 46.3823L32.0216 42.3711L23.7734 50.6162Z" fill="url(#svg-product-flutter-1JOD0YO)"></path>
+<path d="M23.7737 34.1228L15.5273 42.3691L23.7737 50.6155L32.02 42.3691L23.7737 34.1228Z" fill="#29B6F6"></path>
+<path d="M46.4522 27.9382L32.0212 42.3686L46.4522 56.8026H29.9589L23.7731 50.6167L15.5254 42.3686L29.9594 27.9376H46.4522V27.9382ZM29.9589 3.19727L3.15625 29.9999L11.4044 38.2481L46.4522 3.19727H29.9589Z" fill="url(#svg-product-flutter-1jZuchq)"></path>
+</g>
+<defs>
+<pattern id="svg-product-flutter-2oU9I95" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use hhref="#svg-product-flutter-1x8m61a"></use>
+</pattern>
+<linearGradient id="svg-product-flutter-1JOD0YO" x1="26.1792" y1="52.2095" x2="32.3217" y2="46.0671" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1A237E" stop-opacity="0.4"></stop>
+<stop offset="1" stop-color="#1A237E" stop-opacity="0"></stop>
+</linearGradient>
+<radialGradient id="svg-product-flutter-1jZuchq" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(4.37478 6.85217) scale(65.5831)">
+<stop stop-color="white" stop-opacity="0.1"></stop>
+<stop offset="1" stop-color="white" stop-opacity="0"></stop>
+</radialGradient>
+<clipPath id="svg-product-flutter-xOBnk5S">
+<rect width="43.6077" height="54" fill="white" transform="translate(3 3)"></rect>
+</clipPath>
+<image id="svg-product-flutter-1x8m61a" hhref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH0AAABhCAYAAAD7lK7FAAAACXBIWXMAAAHYAAAB2AH6XKZyAAAA"></image>
+</defs>
+</svg>
