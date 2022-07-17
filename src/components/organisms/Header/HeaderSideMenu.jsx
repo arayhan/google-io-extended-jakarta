@@ -37,6 +37,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
           {HEADER_ROUTES.map((route) => (
             <NavLink
               key={route.path}
+              onClick={onClose}
               className={({ isActive }) =>
                 isActive ? "font-semibold p-5 text-gray-700" : "font-semibold p-5 text-gray-500 hover:text-gray-700"
               }
@@ -51,6 +52,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
           <ButtonLink
             className="w-full justify-between"
             href={CONSTANTS.REGISTRATION_LINK}
+            onClick={onClose}
             text="Register"
             icon={<MdLaunch size={16} />}
           />
