@@ -1,6 +1,6 @@
 import React from "react";
 import { FiChevronRight } from "react-icons/fi";
-import { Container } from "@components/atoms";
+import { Button, Container } from "@components/atoms";
 import { About, Speakers } from "@components/organisms";
 import { ROUTES } from "src/routes";
 import { Link } from "react-router-dom";
@@ -24,8 +24,8 @@ function Home() {
         <section className="mb-24 bg-gra">
           <Container className="space-y-14">
             <div className="space-y-3">
-              <h1 className="text-4xl text-blue-700 font-semibold">Speakers</h1>
-              <p className="text-lg text-gray-500">
+              <h1 className="text-4xl font-bold">Speakers</h1>
+              <p className="text-lg font-semibold">
                 Our speakers are influential folks & allies who have been associated with communities within their
                 organisations, cities, country and beyond.
               </p>
@@ -33,15 +33,11 @@ function Home() {
             <Speakers featured />
 
             <div className="flex items-center justify-start">
-              <Link
-                className="group transition-all px-5 py-2 text-blue-700 rounded-md flex items-center space-x-5 hover:bg-gray-50"
-                to={ROUTES.SPEAKERS}
-              >
-                <span>See All Speakers</span>
-                <span className="transition-all transform group-hover:pl-2">
-                  <FiChevronRight />
-                </span>
-              </Link>
+              <Button
+                linkTo={ROUTES.SPEAKERS}
+                text="See All Speakers"
+                icon={<FiChevronRight />}
+              />
             </div>
           </Container>
         </section>

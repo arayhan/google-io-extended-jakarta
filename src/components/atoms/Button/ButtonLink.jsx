@@ -1,9 +1,10 @@
 import React from "react";
+import "./Button.css";
 
 export function ButtonLink({ className, href, text, icon }) {
   return (
     <a
-      className={`flex items-center space-x-3 border-2 rounded-lg border-gray-700 py-2 px-5 font-semibold hover:bg-gray-100 transition ${className}`}
+      className={`button ${className}`}
       href={href}
       target="_blank"
       rel="noreferrer"
