@@ -2,7 +2,7 @@ import React from "react";
 import { FiChevronRight } from "react-icons/fi";
 import Fade from "react-reveal/Fade";
 import { Button, Container } from "@components/atoms";
-import { About, Speakers } from "@components/organisms";
+import { About, FAQ, Speakers } from "@components/organisms";
 import { ROUTES } from "src/routes";
 
 function Home() {
@@ -25,9 +25,9 @@ function Home() {
           </Fade>
         </section>
 
-        <section className="mb-24 bg-gra">
+        <section className="mb-24">
           <Fade>
-            <Container className="space-y-14">
+            <div className="space-y-12">
               <div className="space-y-3">
                 <h1 className="text-4xl font-bold">Speakers</h1>
                 <p className="text-lg font-semibold">
@@ -44,7 +44,19 @@ function Home() {
                   icon={<FiChevronRight />}
                 />
               </div>
-            </Container>
+            </div>
+          </Fade>
+        </section>
+
+        <section className="mb-24">
+          <Fade>
+            <div className="space-y-12">
+              <div className="space-y-3">
+                <h1 className="text-4xl font-bold">Frequently asked questions</h1>
+                <p className="text-lg font-semibold">Need Answers? Everything you need to know</p>
+              </div>
+              <FAQ />
+            </div>
           </Fade>
         </section>
       </Container>
