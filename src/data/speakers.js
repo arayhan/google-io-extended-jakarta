@@ -101,6 +101,17 @@ export const DATA_SPEAKERS = [
     social_media: {},
   },
   {
+    name: "M Indra Bangsawan",
+    topic: "-",
+    avatar_url: require("@assets/images/speakers/M Indra Bangsawan.webp"),
+    institution: "Google",
+    roles: "Tech Practice Lead - Data Specialist",
+    email: null,
+    phone: null,
+    featured_speaker: false,
+    social_media: {},
+  },
+  {
     name: "Reza Albian Jawas",
     topic: "-",
     avatar_url: require("@assets/images/speakers/IMAGE - Reza Jawas.PNG"),
