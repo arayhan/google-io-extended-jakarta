@@ -4,13 +4,13 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, social_media, className, ...props }) => {
   return (
     <div
-      className={`bg-white rounded-lg border-2 hover:border-black p-3 ${className}`}
+      className={`bg-white rounded-lg border-2 hover:border-black px-3 ${className}`}
       {...props}
     >
-      <div className="flex flex-col items-center md:py-6 space-y-6">
-        <div className="">
+      <div className="flex flex-col items-center py-6 space-y-6">
+        <div>
           <img
-            className="w-32 h-32 md:w-48 md:h-48 rounded-full object-cover"
+            className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover"
             src={avatar_url}
             alt={name}
             onError={HELPERS.handleBrokenImage}
@@ -18,15 +18,17 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
         </div>
         <div className="w-full space-y-6 text-center">
           <div className="space-y-1">
-            <h1 className="text-lg font-semibold text-gray-700">{name}</h1>
-            <div className="text-gray-500 text-sm space-y-1">
-              <div>{roles}</div>
-              <div>{institution}</div>
-            </div>
+            <h1 className="text-base sm:text-lg font-semibold text-gray-700">{name}</h1>
+            {(roles || institution) && (
+              <div className="text-gray-500 text-sm space-y-1">
+                <div>{roles}</div>
+                <div>{institution}</div>
+              </div>
+            )}
           </div>
-          <div className="flex justify-center text-gray-500">
-            {social_media &&
-              Object.keys(social_media).map((socmed) => (
+          {Object.keys(social_media).length > 0 && (
+            <div className="flex justify-center text-gray-500">
+              {Object.keys(social_media).map((socmed) => (
                 <a
                   className="hover:text-blue-700 transition-all"
                   href={social_media[socmed]}
@@ -39,7 +41,8 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
                   {socmed === "linkedin" && <FaLinkedin size={18} />}
                 </a>
               ))}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
