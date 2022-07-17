@@ -2,14 +2,14 @@ import React from "react";
 import { FiChevronRight } from "react-icons/fi";
 import Fade from "react-reveal/Fade";
 import { Button, Container } from "@components/atoms";
-import { About, FAQ, Speakers } from "@components/organisms";
+import { About, FAQ, Speakers, Sponsors } from "@components/organisms";
 import { ROUTES } from "src/routes";
 
 function Home() {
   return (
     <div>
-      <Container>
-        <section className="mb-24">
+      <Container className="space-y-24 mb-24">
+        <section>
           <Fade>
             <img
               className="h-64 md:h-96 w-full max-w-screen-2xl object-cover rounded-lg border-2 border-gray-800"
@@ -19,13 +19,13 @@ function Home() {
           </Fade>
         </section>
 
-        <section className="mb-24">
+        <section>
           <Fade>
             <About />
           </Fade>
         </section>
 
-        <section className="mb-24">
+        <section>
           <Fade>
             <div className="space-y-12">
               <div className="space-y-3">
@@ -48,7 +48,7 @@ function Home() {
           </Fade>
         </section>
 
-        <section className="mb-24">
+        <section>
           <Fade>
             <div className="space-y-12">
               <div className="space-y-3">
@@ -57,6 +57,12 @@ function Home() {
               </div>
               <FAQ />
             </div>
+          </Fade>
+        </section>
+
+        <section>
+          <Fade>
+            <Sponsors />
           </Fade>
         </section>
       </Container>
