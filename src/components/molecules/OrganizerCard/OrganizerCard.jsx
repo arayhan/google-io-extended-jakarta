@@ -11,7 +11,7 @@ export const OrganizerCard = ({
 }) => {
   return (
     <div className={`${className}`}>
-      <div className="shadow-md rounded-md flex flex-col justify-between items-center px-3 py-6 border-b space-y-6 h-full">
+      <div className="rounded-lg flex flex-col justify-between border-2 hover:border-black items-center px-3 py-6 space-y-6 h-full">
         <div className="">
           <img
             className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
