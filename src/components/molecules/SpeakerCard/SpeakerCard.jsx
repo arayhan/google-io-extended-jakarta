@@ -22,7 +22,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
             {(roles || institution) && (
               <div className="text-gray-500 text-sm space-y-1">
                 <div>{roles}</div>
-                <div>{institution}</div>
+                {institution && <div>{institution}</div>}
               </div>
             )}
           </div>
