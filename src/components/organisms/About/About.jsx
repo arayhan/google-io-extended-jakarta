@@ -61,7 +61,7 @@ export const About = () => {
               icon={<MdLaunch size={16} />}
             />
             <ButtonLink
-              text="Learn More About DevFest"
+              text="Learn More About Google I/O"
               href={CONSTANTS.IO_OFFICIAL_SITE_LINK}
               icon={<MdLaunch size={16} />}
             />

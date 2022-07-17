@@ -3,8 +3,8 @@ import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, social_media, className }) => {
   return (
     <div className={className}>
-      <div className={`shadow-lg bg-white rounded-lg`}>
-        <div className="flex flex-col items-center py-6 border-b space-y-6">
+      <div className={`bg-white rounded-lg border-2 hover:border-black`}>
+        <div className="flex flex-col items-center py-6 space-y-6">
           <div className="">
             <img
               className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
