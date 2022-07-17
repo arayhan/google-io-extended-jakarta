@@ -1,7 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
 import { ROUTES, HEADER_ROUTES } from "../../../routes";
-import { Container, ButtonRegister, ButtonLink } from "@components/atoms";
+import { Container, ButtonLink } from "@components/atoms";
 import { MdLaunch } from "react-icons/md";
+import { CONSTANTS } from "@utils/constants";
 
 export const HeaderDesktop = () => {
   return (
@@ -41,6 +42,7 @@ export const HeaderDesktop = () => {
           <div className="flex items-center space-x-3">
             <ButtonLink
               text="Register"
+              href={CONSTANTS.REGISTRATION_LINK}
               icon={<MdLaunch size={16} />}
             />
           </div>

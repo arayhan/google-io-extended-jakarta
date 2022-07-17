@@ -1,4 +1,5 @@
 import { ButtonLink } from "@components/atoms";
+import { CONSTANTS } from "@utils/constants";
 import { MdLaunch } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
@@ -50,6 +51,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
         <div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full p-5">
           <ButtonLink
             className="w-full justify-between"
+            href={CONSTANTS.REGISTRATION_LINK}
             text="Register"
             icon={<MdLaunch size={16} />}
           />
