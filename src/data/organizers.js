@@ -80,7 +80,7 @@ export const DATA_ORGANIZERS = [
     event_role: "Streamer - Streamyard",
     professional_role: "System Engineer",
     institution: "IBMJTI",
-    avatar_url: require("@assets/images/organizers/Arisetiaji 2.jpeg").default,
+    avatar_url: require("@assets/images/organizers/Arisetiaji 2.jpeg"),
     social_media: {
       linkedin: "https://www.linkedin.com/in/arisetiaji/",
     },
@@ -90,7 +90,7 @@ export const DATA_ORGANIZERS = [
     event_role: "Web Landing Page",
     professional_role: "Web Frontend Developer",
     institution: "Founderplus.id",
-    avatar_url: require("@assets/images/organizers/Rayhan.png").default,
+    avatar_url: require("@assets/images/organizers/Rayhan.png"),
     social_media: {
       linkedin: "https://www.linkedin.com/in/arayhan",
     },
@@ -100,7 +100,7 @@ export const DATA_ORGANIZERS = [
     event_role: "Streamer - QnA Question Handler",
     professional_role: "Mobile Programmer Senior Associate",
     institution: "Sinarmas MSIG Life",
-    avatar_url: require("@assets/images/organizers/Rifa F Komara.jpg").default,
+    avatar_url: require("@assets/images/organizers/Rifa F Komara.jpg"),
     social_media: {
       linkedin: "https://www.linkedin.com/in/rrifafauzikomara/",
     },

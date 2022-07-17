@@ -1,3 +1,4 @@
+import { HELPERS } from "@utils/helpers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const OrganizerCard = ({
@@ -17,12 +18,13 @@ export const OrganizerCard = ({
             className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
             src={avatar_url}
             alt={name}
+            onError={HELPERS.handleBrokenImage}
           />
         </div>
         <div className="text-center space-y-2">
           <div className="font-semibold text-gray-700">{name}</div>
           <div>
-            <div className="text-gray-400 text-sm">{professional_role}</div>
+            <div className="text-gray-400 text-sm">{event_role}</div>
             {institution && <div className="text-gray-400 text-sm">@ {institution}</div>}
           </div>
         </div>

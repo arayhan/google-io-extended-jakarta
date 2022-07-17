@@ -1,3 +1,4 @@
+import { HELPERS } from "@utils/helpers";
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, social_media, className }) => {
@@ -10,6 +11,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
               className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
               src={avatar_url}
               alt={name}
+              onError={HELPERS.handleBrokenImage}
             />
           </div>
           <div className="w-full space-y-6 text-center">
