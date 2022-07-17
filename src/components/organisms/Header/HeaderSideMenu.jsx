@@ -27,7 +27,7 @@ export const HeaderSideMenu = ({ show, onClose }) => {
           >
             <img
               className="w-64"
-              src={require("../../../assets/images/logo/Logo-io.svg").default}
+              src={require("@assets/images/logo/io-jakarta-logo.jpg")}
               alt="Google I/O Logo"
             />
           </Link>

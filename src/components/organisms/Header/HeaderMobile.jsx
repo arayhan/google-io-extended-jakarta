@@ -20,11 +20,10 @@ export const HeaderMobile = () => {
           <Link
             to={ROUTES.HOME}
             onClick={handleClose}
-            className="transform -translate-x-5"
           >
             <img
-              className="w-42"
-              src={require("../../../assets/images/logo/Logo-io.svg").default}
+              className="w-40"
+              src={require("@assets/images/logo/io-jakarta-logo.jpg")}
               alt="IO Extended Logo"
             />
           </Link>

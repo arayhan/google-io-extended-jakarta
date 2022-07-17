@@ -16,7 +16,7 @@ export const HeaderDesktop = () => {
             >
               <img
                 className="w-36"
-                src={require("@assets/images/logo/Logo-io.svg").default}
+                src={require("@assets/images/logo/io-jakarta-logo.jpg")}
                 alt="Google I/O Logo"
               />
             </Link>
