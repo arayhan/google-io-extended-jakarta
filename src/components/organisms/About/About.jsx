@@ -87,7 +87,7 @@ export const About = () => {
                   Indosat Ooredoo - Jl. Medan Merdeka Barat No.21, RT.2/RW.3, Gambir, Kecamatan Gambir, Kota Jakarta
                   Pusat Daerah Khusus Ibukota Jakarta, 10110
                   <a
-                    className="text-blue-700 hover:text-blue-900 hover:underline ml-3"
+                    className="font-semibold text-blue-700 hover:text-blue-900 hover:underline ml-3"
                     href={CONSTANTS.GMAPS_LOCATION_LINK}
                     target="_blank"
                     rel="noreferrer"
@@ -126,8 +126,21 @@ export const About = () => {
       </div>
 
       <div className="space-y-8">
-        <div className="space-y-3">
+        <div className="space-y-5">
           <h1 className="text-4xl font-display font-bold text-center">Occuring in the near future</h1>
+          <p className="text-center font-semibold text-lg">
+            Whether it be through technical talks delivered in local languages, Q&As with local{" "}
+            <a
+              href="https://developers.google.com/community/experts"
+              target="_blank"
+              rel="noreferrer"
+              className="text-blue-700 hover:text-blue-900 hover:underline"
+            >
+              Google Developer Experts
+            </a>
+            , or by simply meeting fellow local tech enthusiasts, I/O Extended attendees learn about how Google
+            developer products can help them do what they do best - develop.
+          </p>
         </div>
         <div className="flex flex-col gap-6">
           <div className="grid grid-cols-3 gap-3">
