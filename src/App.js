@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import { ROUTES } from "./routes";
+import { Footer, Header } from "@components/organisms";
 import Home from "@pages/Home/Home";
 import Speakers from "@pages/Speakers/Speakers";
-import { Footer, Header } from "@components/organisms";
+import { Organizers } from "@pages/Organizers/Organizers";
 
 function App() {
   return (
@@ -18,6 +19,10 @@ function App() {
           <Route
             path={ROUTES.SPEAKERS}
             element={<Speakers />}
+          />
+          <Route
+            path={ROUTES.ORGANIZERS}
+            element={<Organizers />}
           />
         </Routes>
       </main>
