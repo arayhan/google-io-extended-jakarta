@@ -4,6 +4,7 @@ import { Footer, Header } from "@components/organisms";
 import Home from "@pages/Home/Home";
 import Speakers from "@pages/Speakers/Speakers";
 import { Organizers } from "@pages/Organizers/Organizers";
+import { Schedules } from "@pages/Schedules/Schedules";
 
 function App() {
   return (
@@ -19,6 +20,10 @@ function App() {
           <Route
             path={ROUTES.SPEAKERS}
             element={<Speakers />}
+          />
+          <Route
+            path={ROUTES.SCHEDULES}
+            element={<Schedules />}
           />
           <Route
             path={ROUTES.ORGANIZERS}

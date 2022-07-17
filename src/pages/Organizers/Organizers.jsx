@@ -3,12 +3,13 @@ import { Container } from "@components/atoms";
 import { Helmet } from "react-helmet";
 import { OrganizerCard } from "@components/molecules";
 import { DATA_ORGANIZERS } from "@data";
+import { CONSTANTS } from "@utils/constants";
 
 export const Organizers = () => {
   return (
     <div>
       <Helmet>
-        <title>GDG Devfest 2021 Jakarta - Organizers</title>
+        <title>{CONSTANTS.PAGE_TITLE} - Organizers</title>
       </Helmet>
       <Container className="space-y-24 mb-24">
         <Fade>
