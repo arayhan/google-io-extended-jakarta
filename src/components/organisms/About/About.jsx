@@ -131,37 +131,37 @@ export const About = () => {
         </div>
         <div className="flex flex-col gap-6">
           <div className="grid grid-cols-3 gap-3">
-            <div className="flex flex-col items-center rounded-lg p-6">
-              <div className="text-5xl font-bold">10+</div>
-              <div className="font-semibold">Speakers</div>
+            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
+              <div className="text-4xl sm:text-5xl font-bold">10+</div>
+              <div className="text-base font-semibold">Speakers</div>
             </div>
-            <div className="flex flex-col items-center rounded-lg p-6">
-              <div className="text-5xl font-bold">4</div>
-              <div className="font-semibold">Panels</div>
+            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
+              <div className="text-4xl sm:text-5xl font-bold">4</div>
+              <div className="text-base font-semibold">Panels</div>
             </div>
-            <div className="flex flex-col items-center rounded-lg p-6">
-              <div className="text-5xl font-bold">
+            <div className="flex flex-col items-center rounded-lg sm:p-6 text-center">
+              <div className="text-4xl sm:text-5xl font-bold">
                 <MdPeople />
               </div>
-              <div className="font-semibold">In-person Event</div>
+              <div className="text-base font-semibold">In-person Event</div>
             </div>
           </div>
 
-          <div className="grid grid-cols-5 gap-3">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-center">
             {TOPICS.map((topic) => (
               <a
                 href={topic.site}
                 target="_blank"
                 rel="noreferrer"
-                className="flex flex-col items-center rounded-lg p-6 space-y-3 border-2 hover:border-gray-800"
+                className="flex flex-col items-center rounded-lg p-3 sm:p-6 space-y-3 border-2 hover:border-gray-800"
               >
-                <div className={`rounded-full p-6 bg-opacity-50 ${topic.color}`}>
+                <div className={`rounded-full p-3 sm:p-6 bg-opacity-50 ${topic.color}`}>
                   <img
                     src={topic.icon}
                     alt=""
                   />
                 </div>
-                <div className="text-lg font-semibold">{topic.name}</div>
+                <div className="text-base sm:text-lg font-semibold">{topic.name}</div>
               </a>
             ))}
           </div>
