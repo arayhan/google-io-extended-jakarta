@@ -11,7 +11,7 @@ function App() {
     <div>
       <Header />
 
-      <main className="mt-24">
+      <main className="mt-28">
         <Routes>
           <Route
             path={ROUTES.HOME}
