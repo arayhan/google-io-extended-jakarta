@@ -13,9 +13,9 @@ export const Organizers = () => {
       </Helmet>
       <Container className="space-y-24 mb-24">
         <Fade>
-          <div className="space-y-5 bg-gray-200 px-12 py-24 rounded-lg border-2 border-gray-800">
-            <h1 className="text-7xl font-bold">Organizers.</h1>
-            <p className="text-xl text-gray-800">
+          <div className="space-y-5 bg-gray-200 px-6 py-16 md:px-12 md:py-24 rounded-lg border-2 border-gray-800">
+            <h1 className="text-5xl md:text-7xl font-bold">Organizers.</h1>
+            <p className="text-lg md:text-xl text-gray-800">
               Google I/O Extended Jakarta is a Jakarta community-driven conference, and administratively supported by
               GDG Jakarta. To make all this possible, an awesome team of volunteers is working behind the scenes.
             </p>
@@ -24,7 +24,7 @@ export const Organizers = () => {
 
         <Fade>
           <div className="space-y-14">
-            <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-3 md:gap-6">
               {DATA_ORGANIZERS.map((organizer) => (
                 <OrganizerCard
                   key={organizer.name}

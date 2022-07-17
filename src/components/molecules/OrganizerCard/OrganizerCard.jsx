@@ -15,7 +15,7 @@ export const OrganizerCard = ({
       <div className="rounded-lg flex flex-col justify-between border-2 hover:border-black items-center px-3 py-6 space-y-6 h-full">
         <div className="">
           <img
-            className="md:w-48 md:h-48 w-52 h-52 rounded-full object-cover"
+            className="w-28 h-28 md:w-48 md:h-48 rounded-full object-cover"
             src={avatar_url}
             alt={name}
             onError={HELPERS.handleBrokenImage}
@@ -25,7 +25,8 @@ export const OrganizerCard = ({
           <div className="font-semibold text-gray-700">{name}</div>
           <div>
             <div className="text-gray-400 text-sm">{event_role}</div>
-            {institution && <div className="text-gray-400 text-sm">@ {institution}</div>}
+            {/* <div className="text-gray-400 text-sm">{professional_role}</div> */}
+            {/* {institution && <div className="text-gray-400 text-sm">@ {institution}</div>} */}
           </div>
         </div>
         <div className="flex justify-center text-gray-500">

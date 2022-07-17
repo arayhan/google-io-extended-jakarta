@@ -14,9 +14,9 @@ export const Schedules = () => {
       </Helmet>
       <Container className="space-y-24 mb-24">
         <Fade>
-          <div className="space-y-5 bg-gray-200 px-12 py-24 rounded-lg border-2 border-gray-800">
-            <h1 className="text-7xl font-bold">Schedules.</h1>
-            <p className="text-xl text-gray-800">
+          <div className="space-y-5 bg-gray-200 px-6 py-16 md:px-12 md:py-24 rounded-lg border-2 border-gray-800">
+            <h1 className="text-5xl md:text-7xl font-bold">Schedules.</h1>
+            <p className="text-lg md:text-xl text-gray-800">
               Follow code demonstrations by our expert speakers on 3 different tracks. Check out the schedule below and
               don't forget to mark your calendar so that you don't miss out on any sessions.
             </p>
