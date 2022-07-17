@@ -37,7 +37,6 @@ export const HeaderSideMenu = ({ show, onClose }) => {
           {HEADER_ROUTES.map((route) => (
             <NavLink
               key={route.path}
-              exact
               className={({ isActive }) =>
                 isActive ? "font-semibold p-5 text-gray-700" : "font-semibold p-5 text-gray-500 hover:text-gray-700"
               }

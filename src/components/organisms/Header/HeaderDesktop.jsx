@@ -25,7 +25,6 @@ export const HeaderDesktop = () => {
               {HEADER_ROUTES.map((route) => (
                 <NavLink
                   key={route.path}
-                  exact
                   className={({ isActive }) =>
                     isActive
                       ? "font-semibold py-8 px-5 text-gray-700"
