@@ -1,7 +1,6 @@
 import React from "react";
-import { MdLaunch } from "react-icons/md";
 
-export function ButtonRegister({ className }) {
+export function ButtonLink({ className, text, icon }) {
   return (
     <a
       className={`flex items-center space-x-3 border-2 rounded-lg border-gray-700 py-2 px-5 font-semibold hover:bg-gray-100 transition ${className}`}
@@ -9,10 +8,8 @@ export function ButtonRegister({ className }) {
       target="_blank"
       rel="noreferrer"
     >
-      <span className="tracking-wider">Register</span>
-      <span>
-        <MdLaunch size={16} />
-      </span>
+      <span className="tracking-wider">{text}</span>
+      {icon && <span>{icon}</span>}
     </a>
   );
 }

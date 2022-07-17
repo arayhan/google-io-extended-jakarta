@@ -1,4 +1,5 @@
-import { ButtonRegister } from "@components/atoms";
+import { ButtonLink } from "@components/atoms";
+import { MdLaunch } from "react-icons/md";
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { ROUTES, HEADER_ROUTES } from "../../../routes";
@@ -47,7 +48,11 @@ export const HeaderSideMenu = ({ show, onClose }) => {
         </div>
 
         <div className="absolute bottom-0 flex items-center space-x-3 justify-between w-full p-5">
-          <ButtonRegister className="w-full justify-between" />
+          <ButtonLink
+            className="w-full justify-between"
+            text="Register"
+            icon={<MdLaunch size={16} />}
+          />
         </div>
       </div>
     </div>
