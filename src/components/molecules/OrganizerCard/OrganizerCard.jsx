@@ -12,21 +12,21 @@ export const OrganizerCard = ({
 }) => {
   return (
     <div className={`${className}`}>
-      <div className="rounded-lg flex flex-col justify-between border-2 hover:border-black items-center px-3 py-6 space-y-6 h-full">
-        <div>
+      <div className="rounded-lg flex flex-col justify-between border-2 hover:border-black items-center px-4 py-5 space-y-3 h-full">
+        <div className="flex flex-col items-center space-y-3">
           <img
-            className="w-32 h-32 md:w-44 md:h-44 rounded-full object-cover"
+            className="w-32 h-32 lg:w-40 lg:h-40 rounded-full object-cover"
             src={avatar_url}
             alt={name}
             onError={HELPERS.handleBrokenImage}
           />
-        </div>
-        <div className="text-center space-y-2">
-          <div className="font-semibold text-gray-700">{name}</div>
-          <div>
-            <div className="text-gray-400 text-sm">{event_role}</div>
-            {/* <div className="text-gray-400 text-sm">{professional_role}</div> */}
-            {/* {institution && <div className="text-gray-400 text-sm">@ {institution}</div>} */}
+          <div className="text-center space-y-2">
+            <div className="font-semibold text-gray-700">{name}</div>
+            <div>
+              {/* <div className="text-gray-400 text-sm">{event_role}</div> */}
+              <div className="text-gray-400 text-sm">{professional_role}</div>
+              {institution && <div className="text-gray-400 text-sm">@ {institution}</div>}
+            </div>
           </div>
         </div>
         <div className="flex justify-center text-gray-500">
