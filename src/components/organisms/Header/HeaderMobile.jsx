@@ -22,7 +22,7 @@ export const HeaderMobile = () => {
             onClick={handleClose}
           >
             <img
-              className="w-40"
+              className="w-32"
               src={require("@assets/images/logo/io-jakarta-logo.jpg")}
               alt="IO Extended Logo"
             />
