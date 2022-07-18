@@ -30,6 +30,7 @@ export const SpeakerCard = ({ name, institution, topic, avatar_url, roles, socia
             <div className="flex justify-center text-gray-500">
               {Object.keys(social_media).map((socmed) => (
                 <a
+                  key={socmed}
                   className="hover:text-blue-700 transition-all"
                   href={social_media[socmed]}
                   target="_blank"

@@ -163,6 +163,7 @@ export const About = () => {
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-center">
             {TOPICS.map((topic) => (
               <a
+                key={topic.name}
                 href={topic.site}
                 target="_blank"
                 rel="noreferrer"

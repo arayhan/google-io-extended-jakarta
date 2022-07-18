@@ -12,7 +12,7 @@ export const Agenda = ({ data }) => {
                 const timeEnd = agenda.time.split("-")[1];
 
                 return (
-                  <Fade>
+                  <Fade key={agenda.title}>
                     <div className="flex border-b">
                       <div className="w-28 sm:w-52 border-r text-right p-8 pl-0">
                         <div className="font-semibold text-xl md:text-2xl">{timeStart}</div>
