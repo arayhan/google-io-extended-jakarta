@@ -25,7 +25,7 @@ export const Footer = () => {
       </div>
       <div className="bg-grey-900">
         <Container className="text-center text-white py-3">
-          <div>&copy; Copyright 2021 GDG Jakarta | All Right Reserved</div>
+          <div>&copy; Copyright {new Date().getFullYear()} GDG Jakarta | All Right Reserved</div>
         </Container>
       </div>
     </footer>

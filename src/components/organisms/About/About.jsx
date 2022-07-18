@@ -156,7 +156,7 @@ export const About = () => {
               <div className="text-4xl sm:text-5xl font-bold">
                 <MdPeople />
               </div>
-              <div className="text-base font-semibold">In-person Event</div>
+              <div className="text-base font-semibold">Hybrid Event</div>
             </div>
           </div>
 
