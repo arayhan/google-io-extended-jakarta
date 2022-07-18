@@ -68,15 +68,6 @@ export const About = () => {
                 <span className="text-base">Sat, Jul 30, 9:00 AM - 4:30 PM (WIB)</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="flex justify-center">
-                  <MdPeople
-                    className="w-9"
-                    size={24}
-                  />
-                </div>
-                <span className="text-base">In-person</span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <div className="flex justify-center items-center">
                   <MdLocationOn
                     className="w-9"
