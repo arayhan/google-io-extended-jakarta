@@ -68,15 +68,6 @@ export const About = () => {
                 <span className="text-base">Sat, Jul 30, 9:00 AM - 4:30 PM (WIB)</span>
               </div>
               <div className="flex items-center space-x-3">
-                <div className="flex justify-center">
-                  <MdPeople
-                    className="w-9"
-                    size={24}
-                  />
-                </div>
-                <span className="text-base">In-person</span>
-              </div>
-              <div className="flex items-center space-x-3">
                 <div className="flex justify-center items-center">
                   <MdLocationOn
                     className="w-9"
@@ -156,13 +147,14 @@ export const About = () => {
               <div className="text-4xl sm:text-5xl font-bold">
                 <MdPeople />
               </div>
-              <div className="text-base font-semibold">In-person Event</div>
+              <div className="text-base font-semibold">Hybrid Event</div>
             </div>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 text-center">
             {TOPICS.map((topic) => (
               <a
+                key={topic.name}
                 href={topic.site}
                 target="_blank"
                 rel="noreferrer"

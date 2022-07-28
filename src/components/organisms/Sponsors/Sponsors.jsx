@@ -8,6 +8,7 @@ export function Sponsors() {
         <h1 className="text-4xl font-bold">Supported By</h1>
         {DATA_SPONSORS.map((sponsor) => (
           <a
+            key={sponsor.name}
             href={sponsor.site}
             className="inline-block border-2 w-48 rounded-lg hover:border-gray-800 p-6"
             target="_blank"

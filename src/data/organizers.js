@@ -1,7 +1,7 @@
 export const DATA_ORGANIZERS = [
   {
     name: "R. Rifa Fauzi Komara",
-    event_role: null,
+    event_role: "Runner Division, Multimedia Division",
     professional_role: "Software Engineer Mobile",
     institution: "Ruangguru",
     avatar_url: require("@assets/images/organizers/20200229_110900 - R. Rifa Fauzi Komara.jpg"),
@@ -13,7 +13,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Hana Faiqoh",
-    event_role: "Moderator",
+    event_role: "Moderator (MC)",
     professional_role: "UX Researcher & Designer",
     institution: "Flolab",
     avatar_url: require("@assets/images/organizers/LETZ3750 - Hana Faiqoh.jpeg"),
@@ -25,7 +25,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Arisetiaji",
-    event_role: null,
+    event_role: "Runner Division",
     professional_role: "IT Speciliast - Core Banking",
     institution: "Kyndryl",
     avatar_url: require("@assets/images/organizers/IMG_20210411_110537_741 - Arisetiaji.jpg"),
@@ -37,7 +37,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Muh Isfhani Ghiath",
-    event_role: "Publisher",
+    event_role: "Presentation Operator / FOH, Design Division",
     professional_role: "Sr. Software Engineer, Android",
     institution: "Tokopedia",
     avatar_url: require("@assets/images/organizers/muh_isfhani_ghiath_sBoRwK1.webp"),
@@ -81,7 +81,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Toyib Nurseha",
-    event_role: null,
+    event_role: "Runner Division",
     professional_role: "Android Engineer",
     institution: "Musixmatch ",
     avatar_url: require("@assets/images/organizers/20220713_212936 - Toyib Nurseha.jpg"),
@@ -93,7 +93,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Qodir Masruri",
-    event_role: "F and B Division",
+    event_role: "FnB and Merchandise Division, Multimedia Division",
     professional_role: "Co-Organizer",
     institution: "GDG Jakarta",
     avatar_url: require("@assets/images/organizers/LEV09599-3 - Qodir Masruri.jpg"),
@@ -104,8 +104,18 @@ export const DATA_ORGANIZERS = [
     },
   },
   {
+    name: "Dino Akbar Pratondo ",
+    event_role: "Runner Division",
+    professional_role: "Mobile Developer",
+    institution: "nbs.co.id",
+    avatar_url: require("@assets/images/organizers/IMG_20220702_130139 - Dino Akbar Pratondo.jpg"),
+    email: "akbard838@gmail.com",
+    phone: "083897847969",
+    social_media: {},
+  },
+  {
     name: "Andini Afriyanti Lestari",
-    event_role: null,
+    event_role: "Speaker Division",
     professional_role: "Software Engineer",
     institution: "Kelas Digital",
     email: "andiniaaf@gmail.com",
@@ -115,7 +125,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Yusril Chalif Arrahman",
-    event_role: null,
+    event_role: "Multimedia Division",
     professional_role: "Unity Developer",
     institution: "ShintaVR",
     email: "yusrilchalif@gmail.com",
@@ -125,7 +135,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Devi Zenvita Andriana Utami",
-    event_role: null,
+    event_role: "Registration Division",
     professional_role: "IT Staff",
     institution: "Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional",
     email: "devizenvita@gmail.com",
@@ -135,7 +145,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Fachridan Tio Mu'afa",
-    event_role: null,
+    event_role: "Multimedia Division",
     professional_role: "GDSC Lead",
     institution: "UIN Syarif Hidayatullah Jakarta",
     avatar_url: require("@assets/images/organizers/fachri-1 - Fachridan Tio Mu_afa.png"),
@@ -145,7 +155,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Jason Jeremy Wijadi",
-    event_role: null,
+    event_role: "Multimedia Division",
     professional_role: "Lead",
     institution: "GDSC Binus International",
     avatar_url: require("@assets/images/organizers/L1050543 - Jason Jeremy Wijadi.jpg"),
@@ -155,7 +165,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Monica Devi Kristiadi",
-    event_role: null,
+    event_role: "Speaker Division",
     professional_role: "Tech capability and development",
     institution: "DKatalis",
     avatar_url: require("@assets/images/organizers/16561343938193046794778433354951 - Monica Devi.jpg"),
@@ -165,7 +175,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Gilang Prambudi",
-    event_role: null,
+    event_role: "Moderator (MC)",
     professional_role: "Software Developer Engineer",
     institution: "DANA",
     avatar_url: require("@assets/images/organizers/WhatsApp Image 2022-06-26 at 5.01.09 PM - Gilang Prambudi.jpeg"),
@@ -175,7 +185,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Abadi Suryo Setiyo",
-    event_role: null,
+    event_role: "Multimedia Division, Live Streamer Division",
     professional_role: "Lead",
     institution: "GDSC Universitas Gunadarma",
     avatar_url: require("@assets/images/organizers/photo (2) - Abadi Suryo.png"),
@@ -185,7 +195,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "James Chandra",
-    event_role: null,
+    event_role: "Multimedia Division",
     professional_role: "Backend Engineer Intern",
     institution: "Finku",
     avatar_url: require("@assets/images/organizers/591536 1 - James Chandra.png"),
@@ -195,7 +205,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Ridwan Kusumawardani",
-    event_role: null,
+    event_role: "FnB and Merchandise Division",
     professional_role: "GDSC Lead",
     institution: "GDSC Trilogi",
     avatar_url: require("@assets/images/organizers/PSX_20220510_214219 - Ridwan Kusumawardani.jpg"),
@@ -205,7 +215,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Labib Hibatullah",
-    event_role: null,
+    event_role: "Runner Division",
     professional_role: "Core Team",
     institution: "GDSC Universitas Gunadarma",
     avatar_url: require("@assets/images/organizers/0001-7662348757_20210911_192406_0000 - Labib Hiba.png"),
@@ -215,7 +225,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Muhammad Alfaiz Khisma Authar",
-    event_role: null,
+    event_role: "Presentation Operator / FOH",
     professional_role: "Core Team",
     institution: "GDSC Universitas Gunadarma",
     avatar_url: require("@assets/images/organizers/IMG_0553-Edit - Faiz Authar.jpg"),
@@ -225,7 +235,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Iin Dinariyah",
-    event_role: "Registration",
+    event_role: "Registration Division",
     professional_role: null,
     institution: "BSI",
     avatar_url: require("@assets/images/organizers/1656850008451 - Iin Dinariyah.jpg"),
@@ -235,7 +245,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Widy Astuti",
-    event_role: null,
+    event_role: "Speaker Division",
     professional_role: "IT Service Desk",
     institution: "DJP",
     avatar_url: require("@assets/images/organizers/Widy2 - Widy Astuti.jpg"),
@@ -245,7 +255,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Anugerah Gumelar Hendar Putera",
-    event_role: null,
+    event_role: "Marketing and Publication Division",
     professional_role: "Founder",
     institution: "Battistrada Developer",
     avatar_url: require("@assets/images/organizers/adek - Agum Whistler.PNG"),
@@ -265,7 +275,7 @@ export const DATA_ORGANIZERS = [
   },
   {
     name: "Achmada Fiqri A Rasyad",
-    event_role: null,
+    event_role: "Website Division",
     professional_role: "Cloud Engineer Intern ",
     institution: "PT Sreeya Sewu Tbk ",
     avatar_url: require("@assets/images/organizers/image-ed14aba9-0c13-4064-baa8-f995e725a1d8 - Achmada Fiqri A Rasyad.jpg"),
